@@ -10,7 +10,7 @@ import plotly.express as px  # For charts
 
 st.set_page_config(page_title="Aston's Prop Machine", layout="wide")
 st.title("🚀 Aston's NFL/NBA Prop Machine")
-st.markdown("Built for astoncerminara@gmail.com | Monte Carlo Sims (10k iterations) | Edges >55% Flagged")
+st.markdown("Built for astoncerminara@gmail.com | Monte Carlo Sims (10k iterations) | Edges >60% Flagged")
 
 # Sidebar: Sport & Date Selector
 sport = st.sidebar.selectbox("Sport", ["NFL", "NBA"])
